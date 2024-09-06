@@ -1,6 +1,7 @@
 """Classes of Python"""
 
-class Car:
+
+class Car(object):
     """Car Class"""
 
     def __init__(self, name, wheels):
@@ -10,6 +11,7 @@ class Car:
     def describe(self):
         """describe function"""
         print(self.name + ' has ' + str(self.wheels) + ' wheels')
+
 
 my_car = Car('Skoda', 4)
 my_another_car = Car('RangeRover', 4)
